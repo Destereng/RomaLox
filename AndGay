@@ -8,5 +8,5 @@ local Tab = Window:NewTab("RomaGay function")
 local Section = Tab:NewSection(Рома гей on/off)
 
 Section:NewButton("on", "ButtonInfo", function ()
-print("Work!")
+print("Рома гей")
 end)
