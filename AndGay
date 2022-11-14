@@ -1,12 +1,12 @@
 
-local Library = "loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()"
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("RomaGay Hub", "RJTheme3")
+local Window = Library.CreateLib("TITLE", "DarkTheme")
 
-local Tab = Window:NewTab("RomaGay function")
+local Tab = Window:NewTab("TabName")
 
-local Section = Tab:NewSection("Рома гей on/off")
+local Section = Tab:NewSection("Section Name")
 
-Section:NewButton("on", "ButtonInfo", function ()
-print("Рома гей")
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    print("Clicked")
 end)
